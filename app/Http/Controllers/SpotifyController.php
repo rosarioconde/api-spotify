@@ -10,7 +10,7 @@ class SpotifyController extends Controller
     //
     private $clientId;
     private $clientSecret;
-    private $redirectUri = 'https://pure-inlet-41909.herokuapp.com/profile/'; //cambiar
+    private $redirectUri = 'https://quiet-sierra-48241.herokuapp.com/profile/'; //cambiar
 
     public function __construct(){
         $this->clientId = config('spotify.clientId');
